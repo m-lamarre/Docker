@@ -1,0 +1,2 @@
+docker pull 42school/marine-squad
+docker service create -d --name marines --network overmind --env OC_USERNAME=pinkie --env OC_PASSWD=pie --replicas 2 42school/marine-squad

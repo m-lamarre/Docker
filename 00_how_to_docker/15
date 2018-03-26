@@ -1,0 +1,2 @@
+docker pull phpmyadmin/phpmyadmin
+docker run -d -it -p 8081:80 --name roach-warden --link spawning-pool:db phpmyadmin/phpmyadmin

@@ -1,0 +1,4 @@
+docker-machine ssh Aiur
+docker swarm join --token SWMTKN-1-2w92x8n7loec13s0ls1voen4l749hs05oktg9yu0s7dlv45a3m-8jvwdkjp4chw9r38f7gwcdcdu 192.168.99.100:2377
+
+# replace swarm join --token ... with current token number from the manager node

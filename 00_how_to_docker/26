@@ -1,0 +1,2 @@
+docker pull 42school/engineering-bay
+docker service create -d --name engineering-bay --network overmind --env OC_USERNAME=flutter --env OC_PASSWD=shy --replicas 2 42school/engineering-bay

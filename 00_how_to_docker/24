@@ -1,0 +1,2 @@
+docker pull rabbitmq
+docker service create -d --name orbital-command --network overmind --env RABBITMQ_DEFAULT_USER=rainbow --env RABBITMQ_DEFAULT_PASS=dash --hostname friendshipIsMagic rabbitmq

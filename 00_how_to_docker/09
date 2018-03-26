@@ -1,0 +1,7 @@
+docker pull debian
+docker run -d -it --name deb_container --rm debian /bin/bash
+docker exec -it deb_container apt-get update -y
+docker exec -it deb_container apt-get upgrade -y
+docker exec -it deb_container apt-get install git build-essential -y
+docker exec -it deb_container apt-get install clang -y 
+docker exec -it deb_container /bin/bash
